@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<head> 
+ 	<!-- Google Tag Manager -->
+  	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+ 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+ 	})(window,document,'script','dataLayer','GTM-P9GRJMW');</script>
+ 	<!-- End Google Tag Manager -->
+	<title>Michiana Infosec</title> 
+	<!-- Import style.css from root directory -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" /> 
+</head> 
+<body class="index-page"> 
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9GRJMW"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<!-- Particles.js div -->
+	<div id="particles-js"> 
+    <div class="type">
+      <div class="type-contents-outer">
+      <div class="type-contents-inner">
+        <div class="logo">
+            <img  src="logos/transparent-HQ.png">
+        </div>
+        <div id="heading-mi"> 
+            <h1>Learn. Share. Meet.</h1>
+        </div> 
+
+      <div><span class= "text-border" id="typed"></span></div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="logo-box">
+        <span class="shell">MSEC </span>
+        <span class="shell-symbol">:~ </span>
+        <span class="shell-symbol-2">> </span>
+        <span id="init" class="vt-font" ></span>
+      </div>                          
+    </div>
+     <nav>
+        <button onclick="location.href = 'https://discord.gg/bDxd5gR';" id="myButton" class="Discord-button" >Discord Chat</button>
+        <button onclick="location.href = 'https://www.meetup.com/michiana-infosec/';" id="myButton" class="Discord-button" >Meetup</button>
+        <button onclick="location.href = 'about.html';" id="myButton" class="Discord-button" >About Us</button>
+      </nav>
+
+    </div>
+
+    </div>
+  </div>
+
+	<!-- Import Particles.js and app.js files -->
+	<script src= "particles.js"> 
+    </script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+	<script> 
+		particlesJS.load('particles-js', 'particles.json', function(){
+			console.log('particles.json loaded successfully...')
+		});
+
+		var typed = new Typed('#typed', {
+		    stringsElement: '#heading-mi',
+		    typeSpeed: 55,
+		    backSpeed: 40,
+		    showCursor: false,
+		    cursorChar: '|',
+		    autoInsertCss: false,
+		  });
+
+
+
+        var typed_again = new Typed('#init', {
+            strings: [" Secure", " Harden", " Defend", " Attack", " Drink(Coffee)"],
+            typeSpeed: 75,
+            backSpeed: 50,
+            showCursor: true,
+            loop: true,
+            cursorChar: '|',
+            autoInsertCss: true,
+            smartBackspace: false,
+})
+
+
+		// var typed = new Typed('#init', {
+		//     strings: ["start@minfosec:# splunk", "start@minfosec:# recon", "start@minfosec:# kali", "start@minfosec:# coffee"]
+		//     typeSpeed: 40,
+		//     backSpeed: 40,
+		//     showCursor: true,
+		//     cursorChar: '|',
+		//     autoInsertCss: true,
+		//     smartBackspace: true,
+		//   });
+	</script> 
+</body> 
+
+</html> 
+

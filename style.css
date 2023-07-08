@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 
+      'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+      'Open Sans', 'Helvetica Neue', sans-serif;
+      background: #181a1b;
+}
+.heading{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
+
+.heading-mi {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
+
+.Discord-button {
+  background-color: #2abba1; /* Green */
+  border: none;
+  color: white;
+  padding: 2vw 3vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24pt;
+}
+
+.Discord-button:hover{
+  background-color: #009900; /* Green */
+  color: white;
+}
+
+
+.TEST{
+  border: 5px solid #009900;
+  padding: 10px;  
+}
+
+.text-border{
+    border: 2px solid #00c2ff;
+    padding: 10px;
+}
+
+.logo img {
+  width: 477px;
+  max-width: 100%;
+  margin-bottom: 2em;
+}
+
+.type{
+    position: absolute;
+    text-align: center;
+    left: 0; right: 0; top: 0; bottom: 0;
+
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+@media screen and (min-height: 800px ) {
+   .type-contents-outer{
+    top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    position: relative;
+  }
+}
+  
+                                                                                                                                                                              
+#typed, .typed-cursor {
+    display: inline-block;
+    font-size: 3vw;
+    color: #5A0073;
+    font-family: 'Electrolize', sans-serif;
+    bold;
+}
+
+#init, .typed-cursor {
+    display: inline-block;
+    font-size: 4vw;
+    color: #009900;
+    font-family: 'Electrolize', sans-serif;
+    bold;
+}
+
+#init{
+    display: inline-block;
+    font-size: 5vw;
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.shell{
+    color: #00c2ff!important;
+    display: inline-block;
+    font-size: 5vw;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.electro-font{
+    /*  My goodness, help me!    */
+    font-family: 'Electrolize', sans-serif;
+    color: #00c2ff;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*border: 5px solid #009900;*/
+    margin: 20px auto;
+    max-width: 1024px;
+    
+}
+
+.shell-symbol{
+    color: #5A0073!important;
+    display: inline-block;
+    font-size: 5vw;
+    font-family: 'VT323', monospace;
+}
+
+.shell-symbol-2{
+    color: #009900!important;
+    display: inline-block;
+    font-size: 4vw;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.vt-font{
+    font-family: 'VT323', monospace;
+}
+
+.typed-cursor{
+    opacity: 1;
+    }
+
+.typed-cursor.typed-cursor--blink{
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+        animation: typedjsBlink 0.7s infinite;
+    }
+    @keyframes typedjsBlink{
+        50% { opacity: 0.0; }
+        }
+    @-webkit-keyframes typedjsBlink{
+        0% { opacity: 1; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1; }
+        }
+
+.heading h1 {
+    color: limegreen;
+    font-size: 70px;
+}
+
+.heading h3 {
+    color: wheat;
+    font-size: 20px;
+}
+
+#particles-js {
+    #background: #189ab6;
+    height: 100vh;
+}
+
+@media screen and (min-height: 950px ) and (min-width: 900px) {
+   
+   .type-contents-outer{
+    top: 0px; bottom: 0px; left: 0; right: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    position: absolute;
+   }
+   .type-contents-inner{
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+   }
+
+
+  .about-page nav, .index-page nav {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+  }
+}
+
+
+
+@media screen and (max-width:1024px) {
+  .type { 
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; 
+  }
+  .Discord-button { 
+    width: 100%;
+    margin: 5px;
+    font-size: 15pt;
+  }
+  
+  .electro-font, .shell-symbol, .shell-symbol-2, .shell, #init, #typed, .typed-cursor {
+    font-size: 20pt;
+  }
+
+  .electro-font {
+    position: static;
+    display: block;
+    margin:  0;
+    padding: 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width:1024px) {
+.Discord-button {
+  padding: 1em 1em;
+}
+  .electro-font  {
+    font-size: 20pt;
+  }
+
+
+}
