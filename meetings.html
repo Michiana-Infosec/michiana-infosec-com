@@ -1,6 +1,10 @@
 <!DOCTYPE html> 
-<html lang="en"> 
-<head> 
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=VT323&amp;display=swap" rel="stylesheet">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -8,21 +12,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-P9RJ98V2');</script>
 <!-- End Google Tag Manager -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-
-	<title>Michiana Infosec - About</title> 
+	<title>Michiana Infosec - Meetings</title>
 	<!-- Import style.css from root directory -->
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="style.css">
 </head> 
-<body class="about-page"> 
+<body class="meeting-page">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9RJ98V2"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-	<!-- Particles.js div -->
+	<!-- Particles.js div -->    
 	<div id="particles-js"> 
     <div class="type">
       <div class="type-contents-outer">
@@ -30,19 +29,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="logo">
             <a href="/"><img  src="logos/transparent-HQ.png" width="25%" height="25%" position="absolute" alt="Michiana-InfoSec Logo"></a>
           </div>
-          <p class="electro-font"> 
-            Michiana Infosec is a growing community for both security enthusiast and IT professionals alike.
-            Although we are located in Northern Indiana, our membership holds no bounds.
-            We host monthly meetups, online presentations and we host cooperative events on several CTF platforms.
-            We encourage you to join us. Reach out on our Forum and contribute your knowledge to the MSEC community!
+          <p class="electro-font">
+            <iframe
+            title="Michiana-InfoSec Meetings by Luma"
+            src="https://luma.com/embed/calendar/cal-K57XtIeDNpCiKSM/events?compact=true"
+            frameborder="0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+            height="320px"
+            width="640px"
+            ></iframe>
           </p>
         </div> <!-- inner -->
         <nav>
             <button onclick="location.href = 'https://discord.michiana-infosec.com';" id="discordButton" class="Discord-button">Discord Chat</button>
             <!-- <button onclick="location.href = 'https://www.meetup.com/michiana-infosec/';" id="meetupButton" class="Discord-button">Meetup</button> -->
-		        <button onclick="location.href = 'meetings.html';" id="lumaButton" class="Discord-button">Scheduled Meetings by Luma</button>
+		    <button onclick="location.href = 'meetings.html';" id="lumaButton" class="Discord-button">Scheduled Meetings by Luma</button>
             <button onclick="location.href = 'about.html';" id="aboutButton" class="Discord-button">About Us</button>
-        </nav>
+        </nav> 
       </div> <!-- outer -->
     </div> <!-- type -->
   </div> <!-- particle-ks -->
@@ -55,20 +60,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		particlesJS.load('particles-js', 'particles.json', function(){
 			console.log('particles.json loaded successfully...')
 		});
-
-
-
-		// var typed = new Typed('#init', {
-		//     strings: ["start@minfosec:# splunk", "start@minfosec:# recon", "start@minfosec:# kali", "start@minfosec:# coffee"]
-		//     typeSpeed: 40,
-		//     backSpeed: 40,
-		//     showCursor: true,
-		//     cursorChar: '|',
-		//     autoInsertCss: true,
-		//     smartBackspace: true,
-		//   });
-	</script> 
-</body> 
-
-</html> 
-
+    </script>
+</body>
+</html>

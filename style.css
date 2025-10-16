@@ -82,7 +82,7 @@ body {
     font-size: 3vw;
     color: #5A0073;
     font-family: 'Electrolize', sans-serif;
-    bold;
+    font-weight: bold;
 }
 
 #init, .typed-cursor {
@@ -90,7 +90,7 @@ body {
     font-size: 4vw;
     color: #009900;
     font-family: 'Electrolize', sans-serif;
-    bold;
+    font-weight: bold;
 }
 
 #init{
@@ -142,7 +142,7 @@ body {
 
 .typed-cursor{
     opacity: 1;
-    }
+}
 
 .typed-cursor.typed-cursor--blink{
     animation: typedjsBlink 0.7s infinite;
@@ -191,7 +191,7 @@ body {
    }
 
 
-  .about-page nav, .index-page nav {
+  .about-page nav, .index-page nav, .meeting-page nav {
     position: absolute;
     bottom: 40px;
     left: 0;
@@ -234,4 +234,9 @@ body {
   }
 
 
+}
+
+.iframe {
+  border: 1px solid #bfcbda88;
+  border-radius: 4px;
 }
